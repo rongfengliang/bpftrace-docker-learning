@@ -1,0 +1,7 @@
+version: "3"
+services: 
+   bpf:
+     build: ./
+     pid: host
+     cap_add: 
+     - ALL

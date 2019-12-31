@@ -3,5 +3,8 @@ services:
    bpf:
      build: ./
      pid: host
+     privileged: true
+     volumes: 
+     - "./source-code:/opt/source"
      cap_add: 
      - ALL

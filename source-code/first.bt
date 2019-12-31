@@ -1,0 +1,4 @@
+#!/bin/bpftrace
+BEGIN {
+    printf("this is demo");
+}
